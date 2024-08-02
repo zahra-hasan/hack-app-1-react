@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Serverless demo service",
+  "main": "src/handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Russell Geraghty",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-offline": "^12.0.4"
+  }
+}
