@@ -5,8 +5,8 @@ import ImageTile from "./ImageTile";
 const ImageTiles = ({ images }) => {
   return (
     <CardGroup>
-      {images.map((img) => (
-        <ImageTile image={img} />
+      {images.map((img, k) => (
+        <ImageTile image={img} key={k} />
       ))}
     </CardGroup>
   );

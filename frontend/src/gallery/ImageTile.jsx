@@ -1,13 +1,13 @@
 import Card from "react-bootstrap/Card";
 
 // format of image (for PNG images):
-// "data:image/png;base64," + base44 bytes.
+// "data:image/png;base64," + base64 bytes.
 const ImageTile = ({ image }) => {
   return (
     <Card>
       <Card.Img variant="top" src={image} />
       <Card.Body>
-        <Card.Title>Title</Card.Title>
+        <Card.Title>zz Title</Card.Title>
         <Card.Text>Text</Card.Text>
       </Card.Body>
       <Card.Footer>

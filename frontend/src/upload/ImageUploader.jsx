@@ -1,7 +1,6 @@
 import "./ImageUploader.css";
-import config from "../appconfig";
 import React, { useState } from "react";
-import { postToImageStore } from "../imageapi/imageApi.js";
+import postToImageStore from "./imageApi.js";
 
 // Code taken from
 // https://uploadcare.com/blog/how-to-upload-file-in-react/
@@ -11,7 +10,7 @@ const ImageUploader = ({ destination }) => {
   // ["initial" | "uploading" | "success" | "fail"]
   const [status, setStatus] = useState("initial");
 
-  const handleUpload = async () => {
+  const uploadImageFile = async () => {
     if (!file) {
       setStatus("initial");
       return;
@@ -51,7 +50,7 @@ const ImageUploader = ({ destination }) => {
       )}
 
       {file && (
-        <button onClick={handleUpload} className="submit">
+        <button onClick={uploadImageFile} className="submit">
           Upload
         </button>
       )}

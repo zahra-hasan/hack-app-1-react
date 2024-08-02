@@ -1,3 +1,5 @@
+import config from "../appconfig";
+
 const createUid = (filename) => {
   return (
     "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
@@ -41,3 +43,5 @@ const postToImageStore = async (file) => {
 
   return fetch(config.imageServiceUrl(), requestOptions);
 };
+
+export default postToImageStore;
