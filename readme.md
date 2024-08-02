@@ -1,10 +1,10 @@
 # Hack Day 1 - Getting a small product over the line
 
-Tpday is all about teamwork to get a working product over the line by a deadline.
+Today is all about teamwork. You will need to get a working (minimal) product over the line by a deadline.
 
 ## Starter code
 
-There are two projects in this codebase, frontend (React/bootstrap) and backend (serverless AWS lambda). Please make sure you are in the correct folder/directory when trying to run various NPM commands etc.
+There are two projects in this codebase, `frontend` (React/bootstrap) and `backend` (serverless AWS lambda). Please make sure you are in the correct folder/directory when trying to run various NPM commands etc.
 
 ## Getting Started
 
@@ -45,8 +45,9 @@ Your work today is to figure out how to get a product over the line. You will le
 
 # Pitch at 4:00 PM
 
-At 4 PM we will pick a team at random to deliver their pitch:
+At 4 PM all teams will deliver their short pitches. We'll pick a random order.
 
+in your pitch:
 - Sell the benefits!
 - Engage your audience!
 - Dazzle us with your demo!
@@ -54,3 +55,5 @@ At 4 PM we will pick a team at random to deliver their pitch:
 Don't bore us with technical details - this is a sales pitch.
 
 Very best of luck ...
+
+> tempus nullum hominem expectat, praesertim non post prandium
