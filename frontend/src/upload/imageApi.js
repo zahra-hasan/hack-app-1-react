@@ -1,15 +1,10 @@
 import config from "../appconfig";
+import { v4 as uuidv4 } from "uuid";
 
 const createUid = (filename) => {
-  return (
-    "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
-      const r = (Math.random() * 16) | 0;
-      const v = c === "x" ? r : (r & 0x3) | 0x8;
-      return v.toString(16);
-    }) +
-    "." +
-    filename.split(".").pop()
-  );
+  const fileExtension = filename.split(".").pop();
+  const id = uuidv4() + fileExtension;
+  return id;
 };
 
 const encodeBase64 = async (file) => {
@@ -42,6 +37,7 @@ const postToImageStore = async (file) => {
   requestOptions.headers["Content-Type"] = "application/json";
   requestOptions.body = JSON.stringify(requestBody);
 
+  console.log("POSTing image", fileName);
   return fetch(config.imageServiceUrl(), requestOptions);
 };
 
