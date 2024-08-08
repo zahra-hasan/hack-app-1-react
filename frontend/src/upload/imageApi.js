@@ -31,6 +31,7 @@ const postToImageStore = async (file) => {
   const requestBody = {
     file: imageBase64,
     fileName: fileName,
+    fileMimeType: file.type,
   };
 
   const requestOptions = {

@@ -1,5 +1,6 @@
 const config = {
-  imageServiceBaseUrl: "http://localhost:8090",
+  imageServiceBaseUrl:
+    "https://bjssacademyhackday-a8fqfwapbxfpa4b5.uksouth-01.azurewebsites.net",
   teamName: "example",
 
   imageServiceUrl: function () {
