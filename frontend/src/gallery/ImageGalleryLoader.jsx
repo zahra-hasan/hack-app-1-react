@@ -1,20 +1,19 @@
 import config from "../appconfig.js";
-import useFetch from "../hooks/useFetch";
+import React from "react";
+import useFetch from "react-fetch-hook";
 import ImageGallery from "./ImageGallery";
 
 const ImageGalleryLoader = () => {
-  const { data, isLoading, error } = useFetch(config.imageServiceUrl());
-
-  // data is a JSON object with one field 'data'
-  // field 'data' is an array of string
-  // each string has format:
-  // "data:image/png;base64," + base64 encoded image bytes
+  const { isLoading, data, error } = useFetch(config.imageServiceUrl());
 
   return (
     <>
       {isLoading && <p>Loading images...</p>}
-      {error && <p>{error}</p>}
-
+      {error && (
+        <p>
+          {error.status}&nbsp;{error.statusText}
+        </p>
+      )}
       {data && <ImageGallery images={data.data} />}
     </>
   );
