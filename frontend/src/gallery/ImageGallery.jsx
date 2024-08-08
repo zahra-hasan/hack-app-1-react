@@ -1,10 +1,16 @@
-import ImageTiles from "./ImageTiles";
+import Card from "react-bootstrap/Card";
+import CardGroup from "react-bootstrap/CardGroup";
+import ImageTile from "./ImageTile";
 
 const ImageGallery = ({ images }) => {
   return (
     <>
       <h2>Image Gallery</h2>
-      <ImageTiles images={images} />
+      <CardGroup>
+        {images.map((img, k) => (
+          <ImageTile image={img} key={k} />
+        ))}
+      </CardGroup>
     </>
   );
 };
