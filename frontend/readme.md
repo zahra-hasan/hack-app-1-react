@@ -25,6 +25,8 @@ npm run dev
 - [React Basics](https://github.com/bjssacademy/react-basics)
 - [React Bootstrap Documentation](https://react-bootstrap.netlify.app/)
 - [React Documentation](https://react.dev)
+- [UUID library](https://www.npmjs.com/package/uuid)
+- [React Fetch Hook](https://www.npmjs.com/package/react-fetch-hook)
 
 ### Static website on Azure
 
@@ -32,4 +34,4 @@ How to deploy a static web app on Azure: https://learn.microsoft.com/en-us/azure
 
 ### Image Store API documentation
 
-You can view the Swagger for the Image Store API here: https://bjssacademyhackday.azurewebsites.net/docs
+You can view the Swagger for the Image Store API here: https://bjssacademyhackday-a8fqfwapbxfpa4b5.uksouth-01.azurewebsites.net/docs
