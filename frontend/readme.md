@@ -34,4 +34,10 @@ How to deploy a static web app on Azure: https://learn.microsoft.com/en-us/azure
 
 ### Image Store API documentation
 
-You can view the Swagger for the Image Store API here: https://bjssacademyhackday-a8fqfwapbxfpa4b5.uksouth-01.azurewebsites.net/docs
+Images are stored in an API we have provided. The image upload and fetching all images is working in the UI, so you can see how that all works.
+
+API here: https://bjssacademyhackday-a8fqfwapbxfpa4b5.uksouth-01.azurewebsites.net
+
+The API is documented using Swagger - a "live" documentation system that let's you try out the API.
+
+Swagger here: https://bjssacademyhackday-a8fqfwapbxfpa4b5.uksouth-01.azurewebsites.net/docs
