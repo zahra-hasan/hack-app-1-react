@@ -17,7 +17,6 @@ Navigate into the frontend directory, install and run :
 ```bash
 cd frontend
 npm install
-npm run dev
 ```
 
 **IMPORTANT** you must change the value of `teamName` in the `appconfig.js` file to _your team name_ (one of atari, commodore etc).
