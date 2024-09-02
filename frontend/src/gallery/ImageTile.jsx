@@ -8,7 +8,7 @@ const ImageTile = ({ image }) => {
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>zz Title</Card.Title>
-        <Card.Text>Text</Card.Text>
+        <Card.Text>zz Text</Card.Text>
       </Card.Body>
       <Card.Footer>
         <small className="text-muted">footer</small>
