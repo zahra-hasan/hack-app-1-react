@@ -38,7 +38,7 @@ Open up a terminal and type the below command to install Serverless.
 
 `npm install -g serverless@3.39.0`
 
-If you get permissions errors, you may need to use `sudo npm install -g serverless`
+If you get permissions errors, you may need to use `sudo npm install -g serverless@3.39.0`
 
 ## Free AWS Account Setup
 
