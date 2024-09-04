@@ -34,7 +34,7 @@ By having these applications running locally on a developer’s machine or in a 
 # Prerequisites
 
 NPM should be installed.
-Open up a terminal and type `npm install -g serverless` to install Serverless.
+Open up a terminal and type the below command to install Serverless.
 
 `npm install -g serverless@3.39.0`
 
