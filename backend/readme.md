@@ -1,5 +1,6 @@
 # Backend
 
+
 The backend is where the business logic lives. Free of the glitter and glue of the User Interface frontend, this is where data gets transformed.
 
 in our cases, the backend will coordinate the image-to-text process.
@@ -33,11 +34,11 @@ By having these applications running locally on a developer’s machine or in a 
 # Prerequisites
 
 NPM should be installed.
-Open up a terminal and type `npm install -g serverless` to install Serverless.
+Open up a terminal and type the below command to install Serverless.
 
-`npm install -g serverless`
+`npm install -g serverless@3.39.0`
 
-If you get permissions errors, you may need to use `sudo npm install -g serverless`
+If you get permissions errors, you may need to use `sudo npm install -g serverless@3.39.0`
 
 ## Free AWS Account Setup
 
