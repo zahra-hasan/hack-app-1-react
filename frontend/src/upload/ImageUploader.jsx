@@ -16,6 +16,8 @@ const ImageUploader = ({ destination }) => {
       return;
     }
 
+    setStatus("uploading");
+
     postToImageStore(file).then(
       () => setStatus("success"),
       () => setStatus("fail")

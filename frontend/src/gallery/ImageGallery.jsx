@@ -3,7 +3,8 @@ import CardGroup from "react-bootstrap/CardGroup";
 import ImageTile from "./ImageTile";
 
 const ImageGallery = ({ images }) => {
-  return (
+  return images.length > 0 ?
+  (
     <>
       <h2>Image Gallery</h2>
       <CardGroup>
@@ -11,6 +12,11 @@ const ImageGallery = ({ images }) => {
           <ImageTile image={img} key={k} />
         ))}
       </CardGroup>
+    </>
+  ) : (
+    <>
+      <p>No images found.</p>
+      <p>Best get uploading for your demo.</p>
     </>
   );
 };
