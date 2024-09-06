@@ -6,7 +6,7 @@ const ImageGallery = ({ images }) => {
   return images.length > 0 ?
   (
     <>
-      <h2>Image Gallery</h2>
+      <h2>Notes Gallery</h2>
       <CardGroup>
         {images.map((img, k) => (
           <ImageTile image={img} key={k} />
@@ -15,8 +15,8 @@ const ImageGallery = ({ images }) => {
     </>
   ) : (
     <>
-      <p>No images found.</p>
-      <p>Best get uploading for your demo.</p>
+      <p>No notes found.</p>
+      <p>Upload your first handwritten note!</p>
     </>
   );
 };
