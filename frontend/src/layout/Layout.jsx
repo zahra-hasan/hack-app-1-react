@@ -7,14 +7,14 @@ const Layout = () => {
   return (
     <>
       <Banner
-        title="Image to Text App"
-        message="Dazzle us with your Demo at 4.00PM!"
+        title="Scribblit"
+        message="User Reasercher Notes to Transcript tool"
       />
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            ImageToText
+            Scribblit
           </Link>
 
           <button
